@@ -3,7 +3,10 @@
 const number = 221;
 
 function result(num) {
-  // Your Code Here
+	// Your Code Here
+	const countBits = num.toString(2).split('0').join('').length;
+
+	return countBits;
 }
 
 console.log(result(number));
