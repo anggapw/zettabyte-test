@@ -9,7 +9,6 @@ const arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 function result(arr1, arr2) {
 	// Your Code Here
-
 	const filterArr = arr2.filter((val) => !arr1.includes(val));
 	const isEven = (num) => num % 2 === 0;
 	const sorter = (a, b) => {
